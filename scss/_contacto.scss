@@ -1,0 +1,38 @@
+
+
+
+
+
+
+.contacto label {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  font-size: 1.125rem;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  margin: 3.125rem auto 0 auto;
+}
+
+.formControl {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  color: white;
+  border: 0.75px solid grey;
+  border-radius: $border-radius;
+}
+
+input, button, select, textarea {
+  margin: 0;
+ }
+
+ 
+
+form{
+  background-color: rgba(204, 204, 255, 0.75);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+  
+}

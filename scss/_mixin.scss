@@ -1,0 +1,22 @@
+@mixin sizes($width) {
+   width: $width;
+}
+
+
+@mixin header{
+   min-height: 75px;
+   background-image: url(../imagenes/banner/bannersinlogo.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   top: 0px;
+   z-index: 100;
+  border-radius:  $border-radius;
+}
+
+
+@mixin transformar($propiedad) {
+  -webkit-transform: $propiedad;
+  -ms-transform: $propiedad;
+  transform: $propiedad;
+}

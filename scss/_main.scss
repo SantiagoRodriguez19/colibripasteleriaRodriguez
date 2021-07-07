@@ -1,0 +1,154 @@
+/*Index*/
+
+.presentacion{
+  @import "titulos";
+    .parrafo1{
+      @import"textos";
+    }
+}
+
+.secciones{
+  @import"secciones";
+}
+
+.quienSoy{
+  @import"titulos";
+}
+.profe{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:  space-between;
+    .parrafo2{
+      display: flex;
+      align-items: center;
+    	font-family: 'KoHo', sans-serif;
+      color: #344e41;
+      letter-spacing: 2px;
+      line-height: 140%;
+        .quienSoyResaltado{
+        font-family: 'KoHo';
+        font-size: 25px;
+        color: black;
+      }
+    }
+}
+
+.banner{
+  background-color: white;
+  opacity: 0.8;
+    .parrafo1{
+      @import"textos";
+    }
+}
+
+
+
+/* Quien Soy*/
+
+.imgQ{
+  display:  flex;
+  justify-content:  space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.imgQ img{
+  @include sizes(500px);
+  }
+
+/*Galeria*/
+
+.galeriaImag{
+  @import"titulos";
+    .galeria {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      flex-wrap: wrap;
+          .prueba:hover{
+          @include transformar (scale(1.125, 1.125));
+          transition: 1s;
+          box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571)
+         }
+    }
+}
+.galeria img{
+  margin: 15px;
+}
+
+/*Talleres*/
+
+.grid{
+  display:  grid;
+  grid-template-rows: repeat(4, 400px);
+  grid-row-gap: 20px;
+  grid-template-areas: 
+  "tallCuadro "
+  "basicoP "
+  "tDeco "
+  "avand ";
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+} 
+
+.tallerCuadro{
+  @import"titulos";
+  @import"table";
+  grid-area: tallCuadro;
+}
+
+.basicoP{
+  grid-area: basicoP;
+} 
+
+.tortasD{
+  grid-area:  tDeco;
+}
+
+.avanzadoD{
+  grid-area: avand;
+}
+
+.flexGrid{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexGrid img{
+  width: 500px;
+}
+
+
+.inscripcion{
+  display: flex;
+  width:  100%;
+  align-content:  center;
+  justify-content:  center;
+}
+.container1{
+  @import"titulos";
+  max-height: 1080px;
+  width: 35%;
+  margin: 3.125rem auto 0 auto;
+  background-color: rgba(204, 204, 255, 0.75);
+  padding: 2rem 0.625rem;
+  border-radius: 0.25rem;
+    .btn-primary {
+      color: #fff;
+      background-color: #cdb4db;
+      border-color: var(--hover)
+   }
+}
+
+/*Contacto*/
+
+
+.contacto{
+  @import"contacto";
+}
+.datosContacto{
+  @import"titulos";
+  @import"buttons";
+}
