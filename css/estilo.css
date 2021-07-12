@@ -154,6 +154,61 @@ header img {
   font-size: 35px;
   margin: 15px; }
 
+@media all and (max-width: 768px) {
+  .presentacion body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem; }
+  .presentacion p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 150%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px; }
+  .presentacion h2 {
+    font-size: 20px; }
+  .presentacion h3 {
+    font-size: 20px; }
+  .presentacion .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .presentacion .container {
+    width: 50%;
+    position: relative;
+    margin: 1em; } }
+
+@media all and (max-width: 576px) {
+  .presentacion body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background: white; }
+  .presentacion p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 120%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px; }
+  .presentacion h2 {
+    font-size: 22px; }
+  .presentacion h3 {
+    font-size: 22px; }
+  .presentacion .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .presentacion .container {
+    width: 75%;
+    position: relative;
+    margin: 1em; } }
+
 .presentacion .parrafo1 p {
   font-family: 'KoHo', sans-serif;
   color: #344e41;
@@ -216,6 +271,61 @@ header img {
   font-size: 35px;
   margin: 15px; }
 
+@media all and (max-width: 768px) {
+  .quienSoy body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem; }
+  .quienSoy p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 150%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px; }
+  .quienSoy h2 {
+    font-size: 20px; }
+  .quienSoy h3 {
+    font-size: 20px; }
+  .quienSoy .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .quienSoy .container {
+    width: 50%;
+    position: relative;
+    margin: 1em; } }
+
+@media all and (max-width: 576px) {
+  .quienSoy body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background: white; }
+  .quienSoy p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 120%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px; }
+  .quienSoy h2 {
+    font-size: 22px; }
+  .quienSoy h3 {
+    font-size: 22px; }
+  .quienSoy .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .quienSoy .container {
+    width: 75%;
+    position: relative;
+    margin: 1em; } }
+
 .profe {
   display: flex;
   flex-direction: row-reverse;
@@ -266,6 +376,61 @@ header img {
   font-size: 35px;
   margin: 15px; }
 
+@media all and (max-width: 768px) {
+  .galeriaImag body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem; }
+  .galeriaImag p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 150%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px; }
+  .galeriaImag h2 {
+    font-size: 20px; }
+  .galeriaImag h3 {
+    font-size: 20px; }
+  .galeriaImag .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .galeriaImag .container {
+    width: 50%;
+    position: relative;
+    margin: 1em; } }
+
+@media all and (max-width: 576px) {
+  .galeriaImag body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background: white; }
+  .galeriaImag p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 120%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px; }
+  .galeriaImag h2 {
+    font-size: 22px; }
+  .galeriaImag h3 {
+    font-size: 22px; }
+  .galeriaImag .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .galeriaImag .container {
+    width: 75%;
+    position: relative;
+    margin: 1em; } }
+
 .galeriaImag .galeria {
   display: flex;
   justify-content: space-around;
@@ -305,6 +470,59 @@ header img {
     font-family: 'Berkshire Swash';
     font-size: 35px;
     margin: 15px; }
+  @media all and (max-width: 768px) {
+    .tallerCuadro body {
+      margin-top: 0rem;
+      margin-right: 0rem;
+      margin-bottom: 0rem;
+      margin-left: 0rem; }
+    .tallerCuadro p {
+      text-align: justify;
+      letter-spacing: 2px;
+      line-height: 150%;
+      padding: 10px;
+      font-size: 15px;
+      margin: 15px; }
+    .tallerCuadro h2 {
+      font-size: 20px; }
+    .tallerCuadro h3 {
+      font-size: 20px; }
+    .tallerCuadro .cuatro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-direction: row; }
+    .tallerCuadro .container {
+      width: 50%;
+      position: relative;
+      margin: 1em; } }
+  @media all and (max-width: 576px) {
+    .tallerCuadro body {
+      margin-top: 0rem;
+      margin-right: 0rem;
+      margin-bottom: 0rem;
+      margin-left: 0rem;
+      background: white; }
+    .tallerCuadro p {
+      text-align: justify;
+      letter-spacing: 2px;
+      line-height: 120%;
+      padding: 10px;
+      font-size: 18px;
+      margin: 15px; }
+    .tallerCuadro h2 {
+      font-size: 22px; }
+    .tallerCuadro h3 {
+      font-size: 22px; }
+    .tallerCuadro .cuatro {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-direction: row; }
+    .tallerCuadro .container {
+      width: 75%;
+      position: relative;
+      margin: 1em; } }
   .tallerCuadro table {
     border: 3px solid;
     font-size: 25px; }
@@ -338,30 +556,6 @@ header img {
   width: 100%;
   align-content: center;
   justify-content: center; }
-
-.container1 {
-  max-height: 1080px;
-  width: 35%;
-  margin: 3.125rem auto 0 auto;
-  background-color: rgba(204, 204, 255, 0.75);
-  padding: 2rem 0.625rem;
-  border-radius: 0.25rem; }
-  .container1 h1 {
-    text-align: center;
-    color: black;
-    font-family: 'Berkshire Swash';
-    font-size: 50px;
-    margin: 15px; }
-  .container1 h2 {
-    text-align: center;
-    color: black;
-    font-family: 'Berkshire Swash';
-    font-size: 35px;
-    margin: 15px; }
-  .container1 .btn-primary {
-    color: #fff;
-    background-color: #cdb4db;
-    border-color: var(--hover); }
 
 /*Contacto*/
 .contacto .contacto label {
@@ -404,6 +598,61 @@ header img {
   font-size: 35px;
   margin: 15px; }
 
+@media all and (max-width: 768px) {
+  .datosContacto body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem; }
+  .datosContacto p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 150%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px; }
+  .datosContacto h2 {
+    font-size: 20px; }
+  .datosContacto h3 {
+    font-size: 20px; }
+  .datosContacto .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .datosContacto .container {
+    width: 50%;
+    position: relative;
+    margin: 1em; } }
+
+@media all and (max-width: 576px) {
+  .datosContacto body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background: white; }
+  .datosContacto p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 120%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px; }
+  .datosContacto h2 {
+    font-size: 22px; }
+  .datosContacto h3 {
+    font-size: 22px; }
+  .datosContacto .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .datosContacto .container {
+    width: 75%;
+    position: relative;
+    margin: 1em; } }
+
 .datosContacto .pulse:hover,
 .datosContacto .pulse:focus {
   -webkit-animation: pulse 1s;
@@ -440,33 +689,79 @@ header img {
   margin: 0.05em;
   padding: 0.05em 0.07em; }
 
+.container1 h1 {
+  text-align: center;
+  color: black;
+  font-family: 'Berkshire Swash';
+  font-size: 50px;
+  margin: 15px; }
+
+.container1 h2 {
+  text-align: center;
+  color: black;
+  font-family: 'Berkshire Swash';
+  font-size: 35px;
+  margin: 15px; }
+
+@media all and (max-width: 768px) {
+  .container1 body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem; }
+  .container1 p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 150%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px; }
+  .container1 h2 {
+    font-size: 20px; }
+  .container1 h3 {
+    font-size: 20px; }
+  .container1 .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .container1 .container {
+    width: 50%;
+    position: relative;
+    margin: 1em; } }
+
 @media all and (max-width: 576px) {
-  body {
+  .container1 body {
     margin-top: 0rem;
     margin-right: 0rem;
     margin-bottom: 0rem;
     margin-left: 0rem;
     background: white; }
-  p {
+  .container1 p {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 120%;
     padding: 10px;
     font-size: 18px;
     margin: 15px; }
-  h2 {
+  .container1 h2 {
     font-size: 22px; }
-  h3 {
+  .container1 h3 {
     font-size: 22px; }
-  .cuatro {
+  .container1 .cuatro {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row; }
-  .container {
+  .container1 .container {
     width: 75%;
     position: relative;
     margin: 1em; } }
+
+.btn-primary {
+  color: #fff;
+  background-color: #cdb4db;
+  border-color: var(--hover); }
 
 /*footer*/
 .piePagina img {
@@ -589,3 +884,58 @@ h2 {
   font-family: 'Berkshire Swash';
   font-size: 35px;
   margin: 15px; }
+
+@media all and (max-width: 768px) {
+  body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem; }
+  p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 150%;
+    padding: 10px;
+    font-size: 15px;
+    margin: 15px; }
+  h2 {
+    font-size: 20px; }
+  h3 {
+    font-size: 20px; }
+  .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .container {
+    width: 50%;
+    position: relative;
+    margin: 1em; } }
+
+@media all and (max-width: 576px) {
+  body {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    background: white; }
+  p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 120%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 15px; }
+  h2 {
+    font-size: 22px; }
+  h3 {
+    font-size: 22px; }
+  .cuatro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; }
+  .container {
+    width: 75%;
+    position: relative;
+    margin: 1em; } }

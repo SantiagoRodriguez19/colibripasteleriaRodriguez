@@ -16,3 +16,75 @@ h2{
 	margin: 15px;
 	
 }
+
+@media all and (max-width:  768px){
+  body{
+  margin-top: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  }
+  p{
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 150%;
+  padding:  10px;
+  font-size: 15px;
+  margin: 15px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 20px;
+  }
+  .cuatro{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.container {
+  width: 50%;
+  position: relative;
+  margin: 1em;
+  }
+} 
+
+
+@media all and (max-width:  576px){
+  body{
+  margin-top: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  background: white;
+  }
+  p{
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 120%;
+  padding:  10px;
+  font-size: 18px;
+  margin: 15px;
+  }
+  h2{
+    font-size: 22px;
+  }
+  h3{
+    font-size: 22px;
+  }
+  .cuatro{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.container {
+  width: 75%;
+  position: relative;
+  margin: 1em;
+  }
+} 
