@@ -10,55 +10,67 @@
 
 </head>
 <body>
-	<header class="header">
-			<div >
-				<a href="index.html"><img src="imagenes/logocolibri.png" alt="logo"></a>
-			</div>	
-				<nav class="buttons">
-					<ul>
-						<button class="pulse">
-							<li><a class="link" href="quiensoy.html">Quien soy</a></li>
-						</button>
-						<button class="pulse">
-					    	<li><a class="link" href="galeria.html">Galeria</a></li>
-						</button>
-						<button class="pulse">
-					    	<li><a class="link" href="talleres.html">Talleres</a></li>
-						</button>
-						<button class="pulse">
-					    	<li><a class="linkActivo" href="contacto.html">Contacto</a></li>
-						</button>
-					</ul>
-				</nav>
+	<header id="header">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  	<a class="navbar-brand" href="index.html"><img src="imagenes/logocolibri.png" alt="logo"></a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   		 <span class="navbar-toggler-icon"></span>
+  			</button>
+			  <div class="collapse navbar-collapse" id="navbarNav">
+				    <ul class="navbar-nav ml-auto">
+				      <li class="nav-item">
+				        <a class="nav-link" href="quiensoy.html">Quien soy</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="galeria.html">Galeria</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="talleres.html">Talleres</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="contacto.html">Contacto</a>
+				      </li>
+				    </ul>
+			  </div>
+</nav>
 	</header>
 
 <main>
 	<div class="separadorDeSeccion"></div>
 
-	<div class="contacto">
-		<div class="datosContacto">
-		<h2>Contacto</h2>
-		<form action="" method="GET" novalidate>
-			<label for="nombre">Ingresa tu nombre: </label>
-				<input id="nombre" type="text" name="nombre" autocomplete="off"  class="formControl">
-			<br>
-			<label for="apellido">Ingresa tu apellido: </label>
-				<input id="apellido" type="text" name="apellido" autocomplete="off"   class="formControl">
-			<br>
-			<label for="email">Ingresa tu email: </label>
-				<input id="email" type="email" name="email" placeholder="email@email.com" autocomplete="on"   class="formControl">
-			<br>
-			<label>Dejanos tu mensaje: </label>
-			<br>
-			<textarea></textarea>
-			<br>
-			<label>Quieres recibir nuestro newsletter?</label>
-				<input type="radio" name="">
-			<br>
-				<input type="submit" name="enviar" value="ENVIAR">
-				<input type="reset" name="resetear" value="Borrar">
-		</form>
-	</div>
+	<div class="container1">
+		<div class="inscripcion">
+				<form action="recibe.html" method="POST" enctype="multipart /form-data">
+
+					  <div class="row">
+					    <div class="col">
+					    	<label for="name">Nombre:</label>
+					    	<input type="text" class="form-control" >
+					    </div>
+					    <div class="col">
+					    	<label for="name">Apellido:</label>
+					      	<input type="text" class="form-control" >
+					    </div>
+					  </div>
+					<div class="form-group">
+						    <label for="exampleInputEmail1">Email</label>
+						    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+						    <small id="emailHelp" class="form-text text-muted"></small>
+  					</div>
+  					<div class="form-group">
+						    <label for="exampleFormControlTextarea1">Ingresar mensaje</label>
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+					<div class="form-check">
+							  <div class="form-check form-check-inline">
+							  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+							  <label class="form-check-label" for="inlineCheckbox1">Quieres recibir nuestro Newsletter?</label>
+					</div>
+					</div>
+  						<button type="submit" class="btn btn-primary">Enviar</button>
+						<button type="reset" class="btn btn-primary" name="resetear" value="Borrar todo">Borrar</button>
+				</form>
+		</div>	
 	</div>
 	
 </main>		

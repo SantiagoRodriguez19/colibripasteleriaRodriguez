@@ -6,12 +6,22 @@
 .header{
   @include header;
 }
-.buttons{
+
+header img{
+  width: 130px;
+}
+
+#header ul{
+  font-size: 2rem;
+
+}
+
+.buttons {
   @import"buttons";
     ul {
    display: inline-block;
    font-family: 'KoHo';
-   font-size: 25px;
+   font-size: 2rem;
    padding-left: 15px;
    list-style: none;
     li {
