@@ -169,7 +169,7 @@ header img {
     margin: 15px; }
   .presentacion h2 {
     font-size: 20px; }
-  .presentacion h3 {
+  .presentacion .titulo h3 {
     font-size: 20px; }
   .presentacion .cuatro {
     display: flex;
@@ -286,7 +286,7 @@ header img {
     margin: 15px; }
   .quienSoy h2 {
     font-size: 20px; }
-  .quienSoy h3 {
+  .quienSoy .titulo h3 {
     font-size: 20px; }
   .quienSoy .cuatro {
     display: flex;
@@ -329,10 +329,12 @@ header img {
 .profe {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-between; }
+  justify-content: space-around;
+  flex-wrap: wrap; }
   .profe .parrafo2 {
-    display: flex;
-    align-items: center;
+    /*display: flex;
+      align-items: center;
+      flex-wrap: wrap;*/
     font-family: 'KoHo', sans-serif;
     color: #344e41;
     letter-spacing: 2px;
@@ -391,7 +393,7 @@ header img {
     margin: 15px; }
   .galeriaImag h2 {
     font-size: 20px; }
-  .galeriaImag h3 {
+  .galeriaImag .titulo h3 {
     font-size: 20px; }
   .galeriaImag .cuatro {
     display: flex;
@@ -485,7 +487,7 @@ header img {
       margin: 15px; }
     .tallerCuadro h2 {
       font-size: 20px; }
-    .tallerCuadro h3 {
+    .tallerCuadro .titulo h3 {
       font-size: 20px; }
     .tallerCuadro .cuatro {
       display: flex;
@@ -613,7 +615,7 @@ header img {
     margin: 15px; }
   .datosContacto h2 {
     font-size: 20px; }
-  .datosContacto h3 {
+  .datosContacto .titulo h3 {
     font-size: 20px; }
   .datosContacto .cuatro {
     display: flex;
@@ -718,7 +720,7 @@ header img {
     margin: 15px; }
   .container1 h2 {
     font-size: 20px; }
-  .container1 h3 {
+  .container1 .titulo h3 {
     font-size: 20px; }
   .container1 .cuatro {
     display: flex;
@@ -900,7 +902,7 @@ h2 {
     margin: 15px; }
   h2 {
     font-size: 20px; }
-  h3 {
+  .titulo h3 {
     font-size: 20px; }
   .cuatro {
     display: flex;

@@ -22,10 +22,13 @@
 .profe{
   display: flex;
   flex-direction: row-reverse;
-  justify-content:  space-between;
+  justify-content:  space-around;
+  flex-wrap: wrap;
+
     .parrafo2{
-      display: flex;
+      /*display: flex;
       align-items: center;
+      flex-wrap: wrap;*/
     	font-family: 'KoHo', sans-serif;
       color: #344e41;
       letter-spacing: 2px;
