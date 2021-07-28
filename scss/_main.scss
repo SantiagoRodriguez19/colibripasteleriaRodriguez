@@ -86,38 +86,6 @@
 
 /*Talleres*/
 
-.grid{
-  display:  grid;
-  grid-template-rows: repeat(4, 400px);
-  grid-row-gap: 20px;
-  grid-template-areas: 
-  "tallCuadro "
-  "basicoP "
-  "tDeco "
-  "avand ";
-  justify-items: center;
-  align-items: center;
-  align-content: center;
-} 
-
-.tallerCuadro{
-  @import"titulos";
-  @import"table";
-  grid-area: tallCuadro;
-}
-
-.basicoP{
-  grid-area: basicoP;
-} 
-
-.tortasD{
-  grid-area:  tDeco;
-}
-
-.avanzadoD{
-  grid-area: avand;
-}
-
 .flexGrid{
   display: flex;
   flex-direction: row;
@@ -129,7 +97,7 @@
 }
 
 
-.inscripcion{
+#inscripcion{
   display: flex;
   width:  100%;
   align-content:  center;

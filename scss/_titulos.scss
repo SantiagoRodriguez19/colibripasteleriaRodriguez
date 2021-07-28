@@ -50,6 +50,16 @@ h2{
   position: relative;
   margin: 1em;
   }
+
+.flexGrid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexGrid img{
+  width: 400px;
+  }
 } 
 
 
@@ -86,5 +96,14 @@ h2{
   width: 75%;
   position: relative;
   margin: 1em;
+  }
+  .flexGrid{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexGrid img{
+  width: 500px;
   }
 } 
