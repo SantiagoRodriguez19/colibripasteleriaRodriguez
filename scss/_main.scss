@@ -4,6 +4,12 @@
 
 
 /*Index*/
+.imageHero img{
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
 
 .presentacion{
   @import "titulos";
