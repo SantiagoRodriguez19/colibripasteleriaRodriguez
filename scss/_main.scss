@@ -58,10 +58,12 @@
   justify-content:  space-around;
   flex-direction: row;
   flex-wrap: wrap;
+
 }
 
 .imgQ img{
   @include sizes(500px);
+  padding: 15px;
   }
 
 /*Galeria*/
@@ -76,8 +78,7 @@
           .prueba:hover{
           @include transformar (scale(1.125, 1.125));
           transition: 1s;
-          box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.571)
-         }
+                   }
     }
 }
 .galeria img{
