@@ -81,9 +81,9 @@
       justify-content: space-around;
       flex-direction: row;
       flex-wrap: wrap;
-          .prueba:hover{
+        .prueba:hover{
           @include transformar (scale(1.125, 1.125));
-          transition: 1s;
+          transition: 0.75s;
                    }
     }
 }
@@ -95,12 +95,13 @@
 
 .flexGrid{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 
 .flexGrid img{
-  width: 500px;
+  width: 800px;
+  margin-bottom: 35px;
 }
 
 

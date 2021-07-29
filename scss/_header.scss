@@ -3,7 +3,6 @@
 
 #header{
   @include header;
-  /*position: fixed;*/
 }
 
 header img{
@@ -17,6 +16,7 @@ header img{
 
 .bg-light{
   background-color: #fff1e6 !important;
+  opacity: 0.98;
 }
 
 

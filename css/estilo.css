@@ -30,7 +30,7 @@
 body {
   font-family: 'KoHo', sans-serif;
   background: #fff1e6;
-  margin-top: 2rem;
+  margin-top: 0rem;
   margin-right: 4rem;
   margin-bottom: 2rem;
   margin-left: 4rem; }
@@ -41,8 +41,14 @@ p {
   text-align: center;
   letter-spacing: 2px;
   line-height: 140%;
-  padding: 15px;
-  font-size: 20px; }
+  padding: 5px;
+  font-size: 1.3rem; }
+
+.textoResaltado {
+  text-align: center;
+  color: #474d49;
+  font-family: 'Berkshire Swash';
+  font-size: 1.5rem; }
 
 * {
   outline: none !important; }
@@ -73,15 +79,11 @@ img {
 
 /*Header*/
 #header {
-  min-height: 75px;
-  background-image: url(../imagenes/banner/bannersinlogo.jpg);
-  background-size: cover;
-  background-position: center;
   width: 100%;
   top: 0px;
   z-index: 100;
   border-radius: 5px;
-  /*position: fixed;*/ }
+  position: sticky; }
 
 header img {
   width: 130px; }
@@ -90,7 +92,8 @@ header img {
   font-size: 2rem; }
 
 .bg-light {
-  background-color: #fff1e6 !important; }
+  background-color: #fff1e6 !important;
+  opacity: 0.98; }
 
 .buttons .pulse:hover,
 .buttons .pulse:focus {
@@ -178,7 +181,7 @@ header img {
     margin: 15px; }
   .presentacion h2 {
     font-size: 20px; }
-  .presentacion .titulo h3 {
+  .presentacion .titulo {
     font-size: 20px; }
   .presentacion .cuatro {
     display: flex;
@@ -196,7 +199,12 @@ header img {
     flex-direction: column;
     align-items: center; }
   .presentacion .flexGrid img {
-    width: 400px; } }
+    width: 100%; }
+  .presentacion .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 @media all and (max-width: 576px) {
   .presentacion body {
@@ -226,12 +234,19 @@ header img {
     margin: 1em; }
   .presentacion .overlay {
     display: none; }
+  .presentacion .titulo {
+    font-size: 20px; }
   .presentacion .flexGrid {
     display: flex;
     flex-direction: column;
     align-items: center; }
   .presentacion .flexGrid img {
-    width: 500px; } }
+    width: 100%; }
+  .presentacion .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 .presentacion .parrafo1 p {
   font-family: 'KoHo', sans-serif;
@@ -310,7 +325,7 @@ header img {
     margin: 15px; }
   .quienSoy h2 {
     font-size: 20px; }
-  .quienSoy .titulo h3 {
+  .quienSoy .titulo {
     font-size: 20px; }
   .quienSoy .cuatro {
     display: flex;
@@ -328,7 +343,12 @@ header img {
     flex-direction: column;
     align-items: center; }
   .quienSoy .flexGrid img {
-    width: 400px; } }
+    width: 100%; }
+  .quienSoy .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 @media all and (max-width: 576px) {
   .quienSoy body {
@@ -358,12 +378,19 @@ header img {
     margin: 1em; }
   .quienSoy .overlay {
     display: none; }
+  .quienSoy .titulo {
+    font-size: 20px; }
   .quienSoy .flexGrid {
     display: flex;
     flex-direction: column;
     align-items: center; }
   .quienSoy .flexGrid img {
-    width: 500px; } }
+    width: 100%; }
+  .quienSoy .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 .profe {
   display: flex;
@@ -433,7 +460,7 @@ header img {
     margin: 15px; }
   .galeriaImag h2 {
     font-size: 20px; }
-  .galeriaImag .titulo h3 {
+  .galeriaImag .titulo {
     font-size: 20px; }
   .galeriaImag .cuatro {
     display: flex;
@@ -451,7 +478,12 @@ header img {
     flex-direction: column;
     align-items: center; }
   .galeriaImag .flexGrid img {
-    width: 400px; } }
+    width: 100%; }
+  .galeriaImag .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 @media all and (max-width: 576px) {
   .galeriaImag body {
@@ -481,12 +513,19 @@ header img {
     margin: 1em; }
   .galeriaImag .overlay {
     display: none; }
+  .galeriaImag .titulo {
+    font-size: 20px; }
   .galeriaImag .flexGrid {
     display: flex;
     flex-direction: column;
     align-items: center; }
   .galeriaImag .flexGrid img {
-    width: 500px; } }
+    width: 100%; }
+  .galeriaImag .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 .galeriaImag .galeria {
   display: flex;
@@ -497,7 +536,7 @@ header img {
     -webkit-transform: scale(1.125, 1.125);
     -ms-transform: scale(1.125, 1.125);
     transform: scale(1.125, 1.125);
-    transition: 1s; }
+    transition: 0.75s; }
 
 .galeria img {
   margin: 15px; }
@@ -505,11 +544,12 @@ header img {
 /*Talleres*/
 .flexGrid {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center; }
 
 .flexGrid img {
-  width: 500px; }
+  width: 800px;
+  margin-bottom: 35px; }
 
 #inscripcion {
   display: flex;
@@ -573,7 +613,7 @@ header img {
     margin: 15px; }
   .datosContacto h2 {
     font-size: 20px; }
-  .datosContacto .titulo h3 {
+  .datosContacto .titulo {
     font-size: 20px; }
   .datosContacto .cuatro {
     display: flex;
@@ -591,7 +631,12 @@ header img {
     flex-direction: column;
     align-items: center; }
   .datosContacto .flexGrid img {
-    width: 400px; } }
+    width: 100%; }
+  .datosContacto .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 @media all and (max-width: 576px) {
   .datosContacto body {
@@ -621,12 +666,19 @@ header img {
     margin: 1em; }
   .datosContacto .overlay {
     display: none; }
+  .datosContacto .titulo {
+    font-size: 20px; }
   .datosContacto .flexGrid {
     display: flex;
     flex-direction: column;
     align-items: center; }
   .datosContacto .flexGrid img {
-    width: 500px; } }
+    width: 100%; }
+  .datosContacto .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 .datosContacto .pulse:hover,
 .datosContacto .pulse:focus {
@@ -693,7 +745,7 @@ header img {
     margin: 15px; }
   .container1 h2 {
     font-size: 20px; }
-  .container1 .titulo h3 {
+  .container1 .titulo {
     font-size: 20px; }
   .container1 .cuatro {
     display: flex;
@@ -711,7 +763,12 @@ header img {
     flex-direction: column;
     align-items: center; }
   .container1 .flexGrid img {
-    width: 400px; } }
+    width: 100%; }
+  .container1 .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 @media all and (max-width: 576px) {
   .container1 body {
@@ -741,12 +798,19 @@ header img {
     margin: 1em; }
   .container1 .overlay {
     display: none; }
+  .container1 .titulo {
+    font-size: 20px; }
   .container1 .flexGrid {
     display: flex;
     flex-direction: column;
     align-items: center; }
   .container1 .flexGrid img {
-    width: 500px; } }
+    width: 100%; }
+  .container1 .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 .btn-primary {
   color: #fff;
@@ -876,7 +940,7 @@ h2 {
     margin: 15px; }
   h2 {
     font-size: 20px; }
-  .titulo h3 {
+  .titulo {
     font-size: 20px; }
   .cuatro {
     display: flex;
@@ -894,7 +958,12 @@ h2 {
     flex-direction: column;
     align-items: center; }
   .flexGrid img {
-    width: 400px; } }
+    width: 100%; }
+  .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }
 
 @media all and (max-width: 576px) {
   body {
@@ -924,9 +993,16 @@ h2 {
     margin: 1em; }
   .overlay {
     display: none; }
+  .titulo {
+    font-size: 20px; }
   .flexGrid {
     display: flex;
     flex-direction: column;
     align-items: center; }
   .flexGrid img {
-    width: 500px; } }
+    width: 100%; }
+  .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px; } }

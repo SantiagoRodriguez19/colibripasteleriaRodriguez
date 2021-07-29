@@ -23,11 +23,10 @@ $margin: 5px;
 body{
   font-family:'KoHo', sans-serif;
 	background: #fff1e6;
-	margin-top:   2rem;
+	margin-top:   0rem;
     margin-right: 4rem;
     margin-bottom: 2rem;
     margin-left: 4rem;
-
 }
 
 
@@ -37,10 +36,16 @@ p {
   text-align: center;
   letter-spacing: 2px;
   line-height: 140%;
-  padding:  15px;
-  font-size: 20px;
+  padding:  5px;
+  font-size: 1.3rem;
 }
 
+.textoResaltado{
+    text-align: center;
+    color: #474d49;
+    font-family: 'Berkshire Swash';
+    font-size: 1.5rem;
+}
 
 * {outline: none !important;
 }

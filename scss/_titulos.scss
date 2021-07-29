@@ -2,7 +2,7 @@ h1{
 	text-align: center;
 	color: black;
 	font-family: 'Berkshire Swash';
-  	font-size: 50px;
+  font-size: 50px;
 	margin: 15px;
 }
 
@@ -35,7 +35,7 @@ h2{
   h2{
     font-size: 20px;
   }
-  .titulo h3{
+  .titulo {
     font-size: 20px;
   }
   .cuatro{
@@ -62,8 +62,15 @@ h2{
 }
 
 .flexGrid img{
-  width: 400px;
+  width: 100%;
   }
+ .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
+
 } 
 
 
@@ -105,6 +112,10 @@ h2{
   display: none;
 }
 
+.titulo {
+    font-size: 20px;
+  }
+
 .flexGrid{
   display: flex;
   flex-direction: column;
@@ -112,6 +123,15 @@ h2{
 }
 
 .flexGrid img{
-  width: 500px;
+  width: 100%;
+  }
+
+  .whatsaap a img {
+    width: 35px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
   }
 } 
+
+
