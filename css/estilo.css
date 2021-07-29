@@ -93,7 +93,7 @@ header img {
 
 .bg-light {
   background-color: #fff1e6 !important;
-  opacity: 0.98; }
+  opacity: 0.95; }
 
 .buttons .pulse:hover,
 .buttons .pulse:focus {
@@ -204,7 +204,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .presentacion .carousel-inner {
+    width: 100%; } }
 
 @media all and (max-width: 576px) {
   .presentacion body {
@@ -246,7 +248,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .presentacion .carousel-inner {
+    width: 100%; } }
 
 .presentacion .parrafo1 p {
   font-family: 'KoHo', sans-serif;
@@ -348,7 +352,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .quienSoy .carousel-inner {
+    width: 100%; } }
 
 @media all and (max-width: 576px) {
   .quienSoy body {
@@ -390,7 +396,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .quienSoy .carousel-inner {
+    width: 100%; } }
 
 .profe {
   display: flex;
@@ -418,6 +426,15 @@ header img {
     color: #344e41;
     letter-spacing: 2px;
     line-height: 140%; }
+
+.carousel-inner {
+  width: 70%; }
+
+.carousel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 /* Quien Soy*/
 .imgQ {
@@ -483,7 +500,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .galeriaImag .carousel-inner {
+    width: 100%; } }
 
 @media all and (max-width: 576px) {
   .galeriaImag body {
@@ -525,7 +544,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .galeriaImag .carousel-inner {
+    width: 100%; } }
 
 .galeriaImag .galeria {
   display: flex;
@@ -636,7 +657,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .datosContacto .carousel-inner {
+    width: 100%; } }
 
 @media all and (max-width: 576px) {
   .datosContacto body {
@@ -678,7 +701,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .datosContacto .carousel-inner {
+    width: 100%; } }
 
 .datosContacto .pulse:hover,
 .datosContacto .pulse:focus {
@@ -768,7 +793,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .container1 .carousel-inner {
+    width: 100%; } }
 
 @media all and (max-width: 576px) {
   .container1 body {
@@ -810,7 +837,9 @@ header img {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .container1 .carousel-inner {
+    width: 100%; } }
 
 .btn-primary {
   color: #fff;
@@ -963,7 +992,9 @@ h2 {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .carousel-inner {
+    width: 100%; } }
 
 @media all and (max-width: 576px) {
   body {
@@ -1005,4 +1036,6 @@ h2 {
     width: 35px;
     position: fixed;
     bottom: 15px;
-    right: 15px; } }
+    right: 15px; }
+  .carousel-inner {
+    width: 100%; } }

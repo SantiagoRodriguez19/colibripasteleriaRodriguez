@@ -55,6 +55,18 @@
     }
 }
 
+.carousel-inner{
+  width: 70%;
+}
+
+.carousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
 
 
 /* Quien Soy*/
