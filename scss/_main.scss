@@ -1,8 +1,3 @@
-
-
-
-
-
 /*Index*/
 .imageHero img{
   background-size: cover;
@@ -22,27 +17,8 @@
   @import"secciones";
 }
 
-.quienSoy{
-  @import"titulos";
-}
-.profe{
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content:  space-around;
-  flex-wrap: wrap;
 
-    .parrafo2{
-     	font-family: 'KoHo', sans-serif;
-      color: #344e41;
-      letter-spacing: 2px;
-      line-height: 140%;
-        .quienSoyResaltado{
-        font-family: 'KoHo';
-        font-size: 25px;
-        color: black;
-      }
-    }
-}
+
 
 .banner{
   background-color: white;
@@ -64,9 +40,33 @@
   }
 
 
-
-
 /* Quien Soy*/
+
+.quienSoy{
+  @import"titulos";
+}
+
+.parrafo2{
+      font-family: 'KoHo', sans-serif;
+      color: #344e41;
+      letter-spacing: 2px;
+      line-height: 140%;
+}
+
+.profe{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content:  space-around;
+  flex-wrap: wrap;
+
+    
+        /*.quienSoyResaltado{
+        font-family: 'KoHo';
+        font-size: 25px;
+        color: black;
+      }*/
+    }
+
 
 .imgQ{
   display:  flex;
@@ -101,13 +101,13 @@
 
 /*Talleres*/
 
-.flexGrid{
+.flexG{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.flexGrid img{
+.flexG img{
   width: 800px;
   margin-bottom: 35px;
 }
@@ -139,7 +139,6 @@
 }
 .datosContacto{
   @import"titulos";
-  @import"buttons";
 }
 
   body .btn-primary {
@@ -166,6 +165,4 @@
   @import"titulos";
 }
 
-.btn-primary {
-  @import"buttons";
-}
+

@@ -53,24 +53,22 @@ p {
 .modal-content {
   background-color: #fff1e6; }
 
-* {
-  outline: none !important; }
+/* {outline: none !important;
+}
 
-textarea:focus, input:focus {
-  outline: none !important; }
+textarea:focus, input:focus {outline: none !important;
+}
 
-a {
-  color: transparent;
-  text-decoration: none; }
 
-a:hover {
-  color: #f1faee;
-  text-decoration: none; }
 
-a:visited {
-  color: transparent;
-  text-decoration: none; }
+a {color: transparent; text-decoration: none;
+}
 
+a:hover {color: #f1faee; text-decoration: none;
+}
+
+a:visited {color: transparent; text-decoration: none;
+}*/
 img {
   border-radius: 8px;
   width: 300px; }
@@ -100,57 +98,6 @@ header img {
 
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-right: 1.2rem; }
-
-.buttons .pulse:hover,
-.buttons .pulse:focus {
-  -webkit-animation: pulse 1s;
-  animation: pulse 1s;
-  box-shadow: 0 0 0 1em rgba(255, 255, 255, 0); }
-
-@-webkit-keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover); } }
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover); } }
-
-.buttons .pulse {
-  --color: #d6d6d6;
-  --hover: #ecd99c; }
-
-.buttons button {
-  color: var(--color);
-  -webkit-transition: 0.25s;
-  transition: 0.25s; }
-
-.buttons button:hover, .buttons button:focus {
-  border-color: var(--hover);
-  color: #fff; }
-
-.buttons button {
-  background: none;
-  border: 2px solid;
-  border-radius: 15%;
-  font: inherit;
-  line-height: 1;
-  margin: 0.05em;
-  padding: 0.05em 0.07em; }
-
-.buttons ul {
-  display: inline-block;
-  font-family: 'KoHo';
-  font-size: 2rem;
-  padding-left: 15px;
-  list-style: none; }
-  .buttons ul li {
-    display: inline-block;
-    float: left;
-    padding: 15px; }
-  .buttons ul .link {
-    color: #f1faee; }
-  .buttons ul .linkActivo {
-    color: #ff5c8a; }
 
 /*Index*/
 .imageHero img {
@@ -307,13 +254,32 @@ header img {
   top: 0%; }
 
 .secciones .overlay p {
-  font-size: 70px;
+  font-size: 5rem;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue;
   text-align: center;
   line-height: 40px;
   margin-top: 50%; }
 
+.banner {
+  background-color: white;
+  opacity: 0.8; }
+  .banner .parrafo1 p {
+    font-family: 'KoHo', sans-serif;
+    color: #344e41;
+    letter-spacing: 2px;
+    line-height: 140%; }
+
+.carousel-inner {
+  width: 70%; }
+
+.carousel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+/* Quien Soy*/
 .quienSoy h1 {
   text-align: center;
   color: black;
@@ -422,40 +388,23 @@ header img {
   .quienSoy .carousel-inner {
     width: 100%; } }
 
+.parrafo2 {
+  font-family: 'KoHo', sans-serif;
+  color: #344e41;
+  letter-spacing: 2px;
+  line-height: 140%; }
+
 .profe {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  flex-wrap: wrap; }
-  .profe .parrafo2 {
-    font-family: 'KoHo', sans-serif;
-    color: #344e41;
-    letter-spacing: 2px;
-    line-height: 140%; }
-    .profe .parrafo2 .quienSoyResaltado {
-      font-family: 'KoHo';
-      font-size: 25px;
-      color: black; }
+  flex-wrap: wrap;
+  /*.quienSoyResaltado{
+        font-family: 'KoHo';
+        font-size: 25px;
+        color: black;
+      }*/ }
 
-.banner {
-  background-color: white;
-  opacity: 0.8; }
-  .banner .parrafo1 p {
-    font-family: 'KoHo', sans-serif;
-    color: #344e41;
-    letter-spacing: 2px;
-    line-height: 140%; }
-
-.carousel-inner {
-  width: 70%; }
-
-.carousel {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-/* Quien Soy*/
 .imgQ {
   display: flex;
   justify-content: space-around;
@@ -589,12 +538,12 @@ header img {
   margin: 15px; }
 
 /*Talleres*/
-.flexGrid {
+.flexG {
   display: flex;
   flex-direction: column;
   align-items: center; }
 
-.flexGrid img {
+.flexG img {
   width: 800px;
   margin-bottom: 35px; }
 
@@ -748,42 +697,6 @@ header img {
   .datosContacto .carousel-inner {
     width: 100%; } }
 
-.datosContacto .pulse:hover,
-.datosContacto .pulse:focus {
-  -webkit-animation: pulse 1s;
-  animation: pulse 1s;
-  box-shadow: 0 0 0 1em rgba(255, 255, 255, 0); }
-
-@-webkit-keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover); } }
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover); } }
-
-.datosContacto .pulse {
-  --color: #d6d6d6;
-  --hover: #ecd99c; }
-
-.datosContacto button {
-  color: var(--color);
-  -webkit-transition: 0.25s;
-  transition: 0.25s; }
-
-.datosContacto button:hover, .datosContacto button:focus {
-  border-color: var(--hover);
-  color: #fff; }
-
-.datosContacto button {
-  background: none;
-  border: 2px solid;
-  border-radius: 15%;
-  font: inherit;
-  line-height: 1;
-  margin: 0.05em;
-  padding: 0.05em 0.07em; }
-
 body .btn-primary {
   background-color: #cdb4db;
   border-color: #cdb4db;
@@ -912,42 +825,6 @@ body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:fo
   .container1 .carousel-inner {
     width: 100%; } }
 
-.btn-primary .pulse:hover,
-.btn-primary .pulse:focus {
-  -webkit-animation: pulse 1s;
-  animation: pulse 1s;
-  box-shadow: 0 0 0 1em rgba(255, 255, 255, 0); }
-
-@-webkit-keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover); } }
-
-@keyframes pulse {
-  0% {
-    box-shadow: 0 0 0 0 var(--hover); } }
-
-.btn-primary .pulse {
-  --color: #d6d6d6;
-  --hover: #ecd99c; }
-
-.btn-primary button {
-  color: var(--color);
-  -webkit-transition: 0.25s;
-  transition: 0.25s; }
-
-.btn-primary button:hover, .btn-primary button:focus {
-  border-color: var(--hover);
-  color: #fff; }
-
-.btn-primary button {
-  background: none;
-  border: 2px solid;
-  border-radius: 15%;
-  font: inherit;
-  line-height: 1;
-  margin: 0.05em;
-  padding: 0.05em 0.07em; }
-
 /*footer*/
 .piePagina img {
   width: 35px;
@@ -1029,7 +906,7 @@ form {
   top: 0%; }
 
 .overlay p {
-  font-size: 70px;
+  font-size: 5rem;
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue;
   text-align: center;

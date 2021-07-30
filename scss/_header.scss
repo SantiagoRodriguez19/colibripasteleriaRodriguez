@@ -24,26 +24,5 @@ header img{
 }
 
 
-.buttons {
-  @import"buttons";
-    ul {
-   display: inline-block;
-   font-family: 'KoHo';
-   font-size: 2rem;
-   padding-left: 15px;
-   list-style: none;
-    li {
-     display: inline-block;
-     float: left;
-     padding: 15px;
-    }
-      .link{
-        color: #f1faee;
-      }
-      .linkActivo{
-        color: #ff5c8a;
-      }    
 
-   }
 
-}
