@@ -78,7 +78,7 @@ header img {
   font-size: 2rem;
   margin: 1rem; }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .presentacion body {
     margin-top: 0rem;
     margin-right: 0rem;
@@ -271,7 +271,7 @@ header img {
   font-size: 2rem;
   margin: 1rem; }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .quienSoy body {
     margin-top: 0rem;
     margin-right: 0rem;
@@ -407,7 +407,7 @@ header img {
   font-size: 2rem;
   margin: 1rem; }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .galeriaImag body {
     margin-top: 0rem;
     margin-right: 0rem;
@@ -587,7 +587,7 @@ header img {
   font-size: 2rem;
   margin: 1rem; }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .datosContacto body {
     margin-top: 0rem;
     margin-right: 0rem;
@@ -721,7 +721,7 @@ body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:fo
   font-size: 2rem;
   margin: 1rem; }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   .container1 body {
     margin-top: 0rem;
     margin-right: 0rem;
@@ -940,7 +940,7 @@ h2 {
   font-size: 2rem;
   margin: 1rem; }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1024px) {
   body {
     margin-top: 0rem;
     margin-right: 0rem;
