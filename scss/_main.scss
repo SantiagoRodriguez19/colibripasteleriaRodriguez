@@ -32,10 +32,7 @@
   flex-wrap: wrap;
 
     .parrafo2{
-      /*display: flex;
-      align-items: center;
-      flex-wrap: wrap;*/
-    	font-family: 'KoHo', sans-serif;
+     	font-family: 'KoHo', sans-serif;
       color: #344e41;
       letter-spacing: 2px;
       line-height: 140%;
@@ -81,8 +78,7 @@
 
 .imgQ img{
   @include sizes(500px);
-  padding: 15px;
-  }
+}
 
 /*Galeria*/
 
@@ -127,6 +123,16 @@
 
 /*Contacto*/
 
+.maps{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.element {
+  width: 100%;
+  margin-top: 50px;
+}  
 
 .contacto{
   @import"contacto";
@@ -136,12 +142,30 @@
   @import"buttons";
 }
 
+  body .btn-primary {
+    background-color: #cdb4db;
+    border-color: #cdb4db;
+    color: #FFF; }
+    body .btn-primary:hover, body .btn-primary:focus {
+      border-color: #9974ad;
+      background-color: #9974ad;
+      color: #FFF; }
+    body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:focus, body .btn-primary:active:hover {
+      border-color: #cdb4db;
+      background-color: #cdb4db;
+      color: #FFF; 
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #cdb4db;
+    border-color: #cdb4db;
+}
 
 .container1{
   @import"titulos";
 }
-  .btn-primary {
-    color: #fff;
-    background-color: #cdb4db;
-    border-color: var(--hover);
+
+.btn-primary {
+  @import"buttons";
 }

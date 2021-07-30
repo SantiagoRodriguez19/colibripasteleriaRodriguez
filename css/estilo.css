@@ -50,6 +50,9 @@ p {
   font-family: 'Berkshire Swash';
   font-size: 1.5rem; }
 
+.modal-content {
+  background-color: #fff1e6; }
+
 * {
   outline: none !important; }
 
@@ -94,6 +97,9 @@ header img {
 .bg-light {
   background-color: #fff1e6 !important;
   opacity: 0.95; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.2rem; }
 
 .buttons .pulse:hover,
 .buttons .pulse:focus {
@@ -200,6 +206,10 @@ header img {
     align-items: center; }
   .presentacion .flexGrid img {
     width: 100%; }
+  .presentacion .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .presentacion .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -244,6 +254,10 @@ header img {
     align-items: center; }
   .presentacion .flexGrid img {
     width: 100%; }
+  .presentacion .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .presentacion .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -348,6 +362,10 @@ header img {
     align-items: center; }
   .quienSoy .flexGrid img {
     width: 100%; }
+  .quienSoy .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .quienSoy .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -392,6 +410,10 @@ header img {
     align-items: center; }
   .quienSoy .flexGrid img {
     width: 100%; }
+  .quienSoy .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .quienSoy .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -406,9 +428,6 @@ header img {
   justify-content: space-around;
   flex-wrap: wrap; }
   .profe .parrafo2 {
-    /*display: flex;
-      align-items: center;
-      flex-wrap: wrap;*/
     font-family: 'KoHo', sans-serif;
     color: #344e41;
     letter-spacing: 2px;
@@ -444,8 +463,7 @@ header img {
   flex-wrap: wrap; }
 
 .imgQ img {
-  width: 500px;
-  padding: 15px; }
+  width: 500px; }
 
 /*Galeria*/
 .galeriaImag h1 {
@@ -496,6 +514,10 @@ header img {
     align-items: center; }
   .galeriaImag .flexGrid img {
     width: 100%; }
+  .galeriaImag .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .galeriaImag .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -540,6 +562,10 @@ header img {
     align-items: center; }
   .galeriaImag .flexGrid img {
     width: 100%; }
+  .galeriaImag .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .galeriaImag .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -579,6 +605,15 @@ header img {
   justify-content: center; }
 
 /*Contacto*/
+.maps {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.element {
+  width: 100%;
+  margin-top: 50px; }
+
 .contacto .contacto label {
   display: flex;
   align-items: center;
@@ -653,6 +688,10 @@ header img {
     align-items: center; }
   .datosContacto .flexGrid img {
     width: 100%; }
+  .datosContacto .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .datosContacto .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -697,6 +736,10 @@ header img {
     align-items: center; }
   .datosContacto .flexGrid img {
     width: 100%; }
+  .datosContacto .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .datosContacto .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -740,6 +783,26 @@ header img {
   line-height: 1;
   margin: 0.05em;
   padding: 0.05em 0.07em; }
+
+body .btn-primary {
+  background-color: #cdb4db;
+  border-color: #cdb4db;
+  color: #FFF; }
+
+body .btn-primary:hover, body .btn-primary:focus {
+  border-color: #9974ad;
+  background-color: #9974ad;
+  color: #FFF; }
+
+body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:focus, body .btn-primary:active:hover {
+  border-color: #cdb4db;
+  background-color: #cdb4db;
+  color: #FFF; }
+
+.btn-secondary {
+  color: #fff;
+  background-color: #cdb4db;
+  border-color: #cdb4db; }
 
 .container1 h1 {
   text-align: center;
@@ -789,6 +852,10 @@ header img {
     align-items: center; }
   .container1 .flexGrid img {
     width: 100%; }
+  .container1 .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .container1 .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -833,6 +900,10 @@ header img {
     align-items: center; }
   .container1 .flexGrid img {
     width: 100%; }
+  .container1 .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .container1 .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -841,10 +912,41 @@ header img {
   .container1 .carousel-inner {
     width: 100%; } }
 
-.btn-primary {
-  color: #fff;
-  background-color: #cdb4db;
-  border-color: var(--hover); }
+.btn-primary .pulse:hover,
+.btn-primary .pulse:focus {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+  box-shadow: 0 0 0 1em rgba(255, 255, 255, 0); }
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover); } }
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover); } }
+
+.btn-primary .pulse {
+  --color: #d6d6d6;
+  --hover: #ecd99c; }
+
+.btn-primary button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s; }
+
+.btn-primary button:hover, .btn-primary button:focus {
+  border-color: var(--hover);
+  color: #fff; }
+
+.btn-primary button {
+  background: none;
+  border: 2px solid;
+  border-radius: 15%;
+  font: inherit;
+  line-height: 1;
+  margin: 0.05em;
+  padding: 0.05em 0.07em; }
 
 /*footer*/
 .piePagina img {
@@ -988,6 +1090,10 @@ h2 {
     align-items: center; }
   .flexGrid img {
     width: 100%; }
+  .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .whatsaap a img {
     width: 35px;
     position: fixed;
@@ -1032,6 +1138,10 @@ h2 {
     align-items: center; }
   .flexGrid img {
     width: 100%; }
+  .imgQ img {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px; }
   .whatsaap a img {
     width: 35px;
     position: fixed;
