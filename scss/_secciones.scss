@@ -9,7 +9,7 @@
   width: 35%;
   position: relative;
   overflow: hidden;
-  margin: 1em;
+  margin: 1rem;
   overflow: hidden;
 }
 
@@ -17,9 +17,23 @@
   width: 100%;
   height: 100%;
 }
+a{
+  color: #fff;
+  text-decoration: none
+}
+
+a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff1e6;
+  text-decoration: none;
+}
 
 .overlay {
-  border-radius: 8px;
+  border-radius: $border-radius;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -32,7 +46,7 @@
 }
 
 .container:hover .overlay{
-  border-radius: 8px;
+  border-radius: $border-radius;
   opacity: 1;
   top:  0%;
 }

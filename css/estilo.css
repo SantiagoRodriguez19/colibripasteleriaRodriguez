@@ -3,30 +3,6 @@
   margin: 0;
   padding: 0; }
 
-.mtop-1 {
-  margin-top: 5px; }
-
-.mtop-2 {
-  margin-top: 10px; }
-
-.mtop-3 {
-  margin-top: 15px; }
-
-.mtop-4 {
-  margin-top: 20px; }
-
-.mbottom-1 {
-  margin-bottom: 5px; }
-
-.mbottom-2 {
-  margin-bottom: 10px; }
-
-.mbottom-3 {
-  margin-bottom: 15px; }
-
-.mbottom-4 {
-  margin-bottom: 20px; }
-
 body {
   font-family: 'KoHo', sans-serif;
   background: #fff1e6;
@@ -53,32 +29,15 @@ p {
 .modal-content {
   background-color: #fff1e6; }
 
-/* {outline: none !important;
-}
-
-textarea:focus, input:focus {outline: none !important;
-}
-
-
-
-a {color: transparent; text-decoration: none;
-}
-
-a:hover {color: #f1faee; text-decoration: none;
-}
-
-a:visited {color: transparent; text-decoration: none;
-}*/
 img {
-  border-radius: 8px;
+  border-radius: 5px;
   width: 300px; }
 
 .separadorDeSeccion {
-  border-top: 5px solid #cdb4db;
-  margin-bottom: 25px;
-  margin-top: 25px; }
+  border-top: .3rem solid #cdb4db;
+  margin-bottom: 2rem;
+  margin-top: 2rem; }
 
-/*Header*/
 #header {
   width: 100%;
   top: 0px;
@@ -109,15 +68,15 @@ header img {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 50px;
-  margin: 15px; }
+  font-size: 3rem;
+  margin: 1rem; }
 
 .presentacion h2 {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 35px;
-  margin: 15px; }
+  font-size: 2rem;
+  margin: 1rem; }
 
 @media all and (max-width: 768px) {
   .presentacion body {
@@ -129,13 +88,19 @@ header img {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 150%;
-    padding: 10px;
-    font-size: 15px;
-    margin: 15px; }
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin: 1rem; }
+  .presentacion h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Berkshire Swash';
+    font-size: 2rem;
+    margin: 1em; }
   .presentacion h2 {
-    font-size: 20px; }
+    font-size: 1.2rem; }
   .presentacion .titulo {
-    font-size: 20px; }
+    font-size: 1.3rem; }
   .presentacion .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -144,24 +109,24 @@ header img {
   .presentacion .container {
     width: 50%;
     position: relative;
-    margin: 1em; }
+    margin: 1rem; }
   .presentacion .overlay {
     display: none; }
-  .presentacion .flexGrid {
+  .presentacion .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .presentacion .flexGrid img {
+  .presentacion .flexG img {
     width: 100%; }
   .presentacion .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem; }
   .presentacion .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .presentacion .carousel-inner {
     width: 100%; } }
 
@@ -175,13 +140,13 @@ header img {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 120%;
-    padding: 10px;
-    font-size: 18px;
-    margin: 15px; }
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    margin: 0.3rem; }
   .presentacion h2 {
-    font-size: 22px; }
+    font-size: 1.3rem; }
   .presentacion h3 {
-    font-size: 22px; }
+    font-size: 1.5rem; }
   .presentacion .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -194,22 +159,22 @@ header img {
   .presentacion .overlay {
     display: none; }
   .presentacion .titulo {
-    font-size: 20px; }
-  .presentacion .flexGrid {
+    font-size: 1.3rem; }
+  .presentacion .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .presentacion .flexGrid img {
+  .presentacion .flexG img {
     width: 100%; }
   .presentacion .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
   .presentacion .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .presentacion .carousel-inner {
     width: 100%; } }
 
@@ -229,15 +194,27 @@ header img {
   width: 35%;
   position: relative;
   overflow: hidden;
-  margin: 1em;
+  margin: 1rem;
   overflow: hidden; }
 
 .secciones .image {
   width: 100%;
   height: 100%; }
 
+.secciones a {
+  color: #fff;
+  text-decoration: none; }
+
+.secciones a:visited {
+  color: #fff;
+  text-decoration: none; }
+
+.secciones a:hover {
+  color: #fff1e6;
+  text-decoration: none; }
+
 .secciones .overlay {
-  border-radius: 8px;
+  border-radius: 5px;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -249,7 +226,7 @@ header img {
   opacity: 1; }
 
 .secciones .container:hover .overlay {
-  border-radius: 8px;
+  border-radius: 5px;
   opacity: 1;
   top: 0%; }
 
@@ -284,15 +261,15 @@ header img {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 50px;
-  margin: 15px; }
+  font-size: 3rem;
+  margin: 1rem; }
 
 .quienSoy h2 {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 35px;
-  margin: 15px; }
+  font-size: 2rem;
+  margin: 1rem; }
 
 @media all and (max-width: 768px) {
   .quienSoy body {
@@ -304,13 +281,19 @@ header img {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 150%;
-    padding: 10px;
-    font-size: 15px;
-    margin: 15px; }
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin: 1rem; }
+  .quienSoy h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Berkshire Swash';
+    font-size: 2rem;
+    margin: 1em; }
   .quienSoy h2 {
-    font-size: 20px; }
+    font-size: 1.2rem; }
   .quienSoy .titulo {
-    font-size: 20px; }
+    font-size: 1.3rem; }
   .quienSoy .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -319,24 +302,24 @@ header img {
   .quienSoy .container {
     width: 50%;
     position: relative;
-    margin: 1em; }
+    margin: 1rem; }
   .quienSoy .overlay {
     display: none; }
-  .quienSoy .flexGrid {
+  .quienSoy .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .quienSoy .flexGrid img {
+  .quienSoy .flexG img {
     width: 100%; }
   .quienSoy .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem; }
   .quienSoy .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .quienSoy .carousel-inner {
     width: 100%; } }
 
@@ -350,13 +333,13 @@ header img {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 120%;
-    padding: 10px;
-    font-size: 18px;
-    margin: 15px; }
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    margin: 0.3rem; }
   .quienSoy h2 {
-    font-size: 22px; }
+    font-size: 1.3rem; }
   .quienSoy h3 {
-    font-size: 22px; }
+    font-size: 1.5rem; }
   .quienSoy .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -369,22 +352,22 @@ header img {
   .quienSoy .overlay {
     display: none; }
   .quienSoy .titulo {
-    font-size: 20px; }
-  .quienSoy .flexGrid {
+    font-size: 1.3rem; }
+  .quienSoy .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .quienSoy .flexGrid img {
+  .quienSoy .flexG img {
     width: 100%; }
   .quienSoy .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
   .quienSoy .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .quienSoy .carousel-inner {
     width: 100%; } }
 
@@ -398,12 +381,7 @@ header img {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  flex-wrap: wrap;
-  /*.quienSoyResaltado{
-        font-family: 'KoHo';
-        font-size: 25px;
-        color: black;
-      }*/ }
+  flex-wrap: wrap; }
 
 .imgQ {
   display: flex;
@@ -419,15 +397,15 @@ header img {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 50px;
-  margin: 15px; }
+  font-size: 3rem;
+  margin: 1rem; }
 
 .galeriaImag h2 {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 35px;
-  margin: 15px; }
+  font-size: 2rem;
+  margin: 1rem; }
 
 @media all and (max-width: 768px) {
   .galeriaImag body {
@@ -439,13 +417,19 @@ header img {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 150%;
-    padding: 10px;
-    font-size: 15px;
-    margin: 15px; }
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin: 1rem; }
+  .galeriaImag h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Berkshire Swash';
+    font-size: 2rem;
+    margin: 1em; }
   .galeriaImag h2 {
-    font-size: 20px; }
+    font-size: 1.2rem; }
   .galeriaImag .titulo {
-    font-size: 20px; }
+    font-size: 1.3rem; }
   .galeriaImag .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -454,24 +438,24 @@ header img {
   .galeriaImag .container {
     width: 50%;
     position: relative;
-    margin: 1em; }
+    margin: 1rem; }
   .galeriaImag .overlay {
     display: none; }
-  .galeriaImag .flexGrid {
+  .galeriaImag .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .galeriaImag .flexGrid img {
+  .galeriaImag .flexG img {
     width: 100%; }
   .galeriaImag .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem; }
   .galeriaImag .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .galeriaImag .carousel-inner {
     width: 100%; } }
 
@@ -485,13 +469,13 @@ header img {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 120%;
-    padding: 10px;
-    font-size: 18px;
-    margin: 15px; }
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    margin: 0.3rem; }
   .galeriaImag h2 {
-    font-size: 22px; }
+    font-size: 1.3rem; }
   .galeriaImag h3 {
-    font-size: 22px; }
+    font-size: 1.5rem; }
   .galeriaImag .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -504,22 +488,22 @@ header img {
   .galeriaImag .overlay {
     display: none; }
   .galeriaImag .titulo {
-    font-size: 20px; }
-  .galeriaImag .flexGrid {
+    font-size: 1.3rem; }
+  .galeriaImag .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .galeriaImag .flexGrid img {
+  .galeriaImag .flexG img {
     width: 100%; }
   .galeriaImag .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
   .galeriaImag .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .galeriaImag .carousel-inner {
     width: 100%; } }
 
@@ -535,7 +519,7 @@ header img {
     transition: 0.75s; }
 
 .galeria img {
-  margin: 15px; }
+  margin: 1rem; }
 
 /*Talleres*/
 .flexG {
@@ -545,7 +529,7 @@ header img {
 
 .flexG img {
   width: 800px;
-  margin-bottom: 35px; }
+  margin-bottom: 2rem; }
 
 #inscripcion {
   display: flex;
@@ -561,7 +545,7 @@ header img {
 
 .element {
   width: 100%;
-  margin-top: 50px; }
+  margin-top: 4rem; }
 
 .contacto .contacto label {
   display: flex;
@@ -593,15 +577,15 @@ header img {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 50px;
-  margin: 15px; }
+  font-size: 3rem;
+  margin: 1rem; }
 
 .datosContacto h2 {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 35px;
-  margin: 15px; }
+  font-size: 2rem;
+  margin: 1rem; }
 
 @media all and (max-width: 768px) {
   .datosContacto body {
@@ -613,13 +597,19 @@ header img {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 150%;
-    padding: 10px;
-    font-size: 15px;
-    margin: 15px; }
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin: 1rem; }
+  .datosContacto h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Berkshire Swash';
+    font-size: 2rem;
+    margin: 1em; }
   .datosContacto h2 {
-    font-size: 20px; }
+    font-size: 1.2rem; }
   .datosContacto .titulo {
-    font-size: 20px; }
+    font-size: 1.3rem; }
   .datosContacto .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -628,24 +618,24 @@ header img {
   .datosContacto .container {
     width: 50%;
     position: relative;
-    margin: 1em; }
+    margin: 1rem; }
   .datosContacto .overlay {
     display: none; }
-  .datosContacto .flexGrid {
+  .datosContacto .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .datosContacto .flexGrid img {
+  .datosContacto .flexG img {
     width: 100%; }
   .datosContacto .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem; }
   .datosContacto .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .datosContacto .carousel-inner {
     width: 100%; } }
 
@@ -659,13 +649,13 @@ header img {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 120%;
-    padding: 10px;
-    font-size: 18px;
-    margin: 15px; }
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    margin: 0.3rem; }
   .datosContacto h2 {
-    font-size: 22px; }
+    font-size: 1.3rem; }
   .datosContacto h3 {
-    font-size: 22px; }
+    font-size: 1.5rem; }
   .datosContacto .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -678,22 +668,22 @@ header img {
   .datosContacto .overlay {
     display: none; }
   .datosContacto .titulo {
-    font-size: 20px; }
-  .datosContacto .flexGrid {
+    font-size: 1.3rem; }
+  .datosContacto .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .datosContacto .flexGrid img {
+  .datosContacto .flexG img {
     width: 100%; }
   .datosContacto .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
   .datosContacto .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .datosContacto .carousel-inner {
     width: 100%; } }
 
@@ -721,15 +711,15 @@ body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:fo
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 50px;
-  margin: 15px; }
+  font-size: 3rem;
+  margin: 1rem; }
 
 .container1 h2 {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 35px;
-  margin: 15px; }
+  font-size: 2rem;
+  margin: 1rem; }
 
 @media all and (max-width: 768px) {
   .container1 body {
@@ -741,13 +731,19 @@ body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:fo
     text-align: justify;
     letter-spacing: 2px;
     line-height: 150%;
-    padding: 10px;
-    font-size: 15px;
-    margin: 15px; }
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin: 1rem; }
+  .container1 h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Berkshire Swash';
+    font-size: 2rem;
+    margin: 1em; }
   .container1 h2 {
-    font-size: 20px; }
+    font-size: 1.2rem; }
   .container1 .titulo {
-    font-size: 20px; }
+    font-size: 1.3rem; }
   .container1 .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -756,24 +752,24 @@ body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:fo
   .container1 .container {
     width: 50%;
     position: relative;
-    margin: 1em; }
+    margin: 1rem; }
   .container1 .overlay {
     display: none; }
-  .container1 .flexGrid {
+  .container1 .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .container1 .flexGrid img {
+  .container1 .flexG img {
     width: 100%; }
   .container1 .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem; }
   .container1 .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .container1 .carousel-inner {
     width: 100%; } }
 
@@ -787,13 +783,13 @@ body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:fo
     text-align: justify;
     letter-spacing: 2px;
     line-height: 120%;
-    padding: 10px;
-    font-size: 18px;
-    margin: 15px; }
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    margin: 0.3rem; }
   .container1 h2 {
-    font-size: 22px; }
+    font-size: 1.3rem; }
   .container1 h3 {
-    font-size: 22px; }
+    font-size: 1.5rem; }
   .container1 .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -806,44 +802,43 @@ body .btn-primary:active, body .btn-primary:visited, body .btn-primary:active:fo
   .container1 .overlay {
     display: none; }
   .container1 .titulo {
-    font-size: 20px; }
-  .container1 .flexGrid {
+    font-size: 1.3rem; }
+  .container1 .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .container1 .flexGrid img {
+  .container1 .flexG img {
     width: 100%; }
   .container1 .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
   .container1 .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .container1 .carousel-inner {
     width: 100%; } }
 
-/*footer*/
 .piePagina img {
   width: 35px;
   position: center; }
 
 .titulo {
-  font-size: 30px; }
+  font-size: 2rem; }
 
 footer {
   text-align: center;
-  margin-top: 35px;
+  margin-top: 2rem;
   background-color: #d9ed92;
   border-radius: 5px; }
 
 .whatsaap a img {
   width: 50px;
   position: fixed;
-  bottom: 37px;
-  right: 70px; }
+  bottom: 3rem;
+  right: 6rem; }
 
 .contacto label {
   display: flex;
@@ -881,15 +876,27 @@ form {
   width: 35%;
   position: relative;
   overflow: hidden;
-  margin: 1em;
+  margin: 1rem;
   overflow: hidden; }
 
 .image {
   width: 100%;
   height: 100%; }
 
+a {
+  color: #fff;
+  text-decoration: none; }
+
+a:visited {
+  color: #fff;
+  text-decoration: none; }
+
+a:hover {
+  color: #fff1e6;
+  text-decoration: none; }
+
 .overlay {
-  border-radius: 8px;
+  border-radius: 5px;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -901,7 +908,7 @@ form {
   opacity: 1; }
 
 .container:hover .overlay {
-  border-radius: 8px;
+  border-radius: 5px;
   opacity: 1;
   top: 0%; }
 
@@ -923,15 +930,15 @@ h1 {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 50px;
-  margin: 15px; }
+  font-size: 3rem;
+  margin: 1rem; }
 
 h2 {
   text-align: center;
   color: black;
   font-family: 'Berkshire Swash';
-  font-size: 35px;
-  margin: 15px; }
+  font-size: 2rem;
+  margin: 1rem; }
 
 @media all and (max-width: 768px) {
   body {
@@ -943,13 +950,19 @@ h2 {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 150%;
-    padding: 10px;
-    font-size: 15px;
-    margin: 15px; }
+    padding: 0.8rem;
+    font-size: 1rem;
+    margin: 1rem; }
+  h1 {
+    text-align: center;
+    color: black;
+    font-family: 'Berkshire Swash';
+    font-size: 2rem;
+    margin: 1em; }
   h2 {
-    font-size: 20px; }
+    font-size: 1.2rem; }
   .titulo {
-    font-size: 20px; }
+    font-size: 1.3rem; }
   .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -958,24 +971,24 @@ h2 {
   .container {
     width: 50%;
     position: relative;
-    margin: 1em; }
+    margin: 1rem; }
   .overlay {
     display: none; }
-  .flexGrid {
+  .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .flexGrid img {
+  .flexG img {
     width: 100%; }
   .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 0.8rem;
+    margin-top: 0.8rem; }
   .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .carousel-inner {
     width: 100%; } }
 
@@ -989,13 +1002,13 @@ h2 {
     text-align: justify;
     letter-spacing: 2px;
     line-height: 120%;
-    padding: 10px;
-    font-size: 18px;
-    margin: 15px; }
+    padding: 0.3rem;
+    font-size: 1.1rem;
+    margin: 0.3rem; }
   h2 {
-    font-size: 22px; }
+    font-size: 1.3rem; }
   h3 {
-    font-size: 22px; }
+    font-size: 1.5rem; }
   .cuatro {
     display: flex;
     flex-wrap: wrap;
@@ -1008,21 +1021,21 @@ h2 {
   .overlay {
     display: none; }
   .titulo {
-    font-size: 20px; }
-  .flexGrid {
+    font-size: 1.3rem; }
+  .flexG {
     display: flex;
     flex-direction: column;
     align-items: center; }
-  .flexGrid img {
+  .flexG img {
     width: 100%; }
   .imgQ img {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px; }
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
   .whatsaap a img {
     width: 35px;
     position: fixed;
-    bottom: 15px;
-    right: 15px; }
+    bottom: 1rem;
+    right: 1rem; }
   .carousel-inner {
     width: 100%; } }

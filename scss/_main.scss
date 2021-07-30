@@ -58,14 +58,7 @@
   flex-direction: row-reverse;
   justify-content:  space-around;
   flex-wrap: wrap;
-
-    
-        /*.quienSoyResaltado{
-        font-family: 'KoHo';
-        font-size: 25px;
-        color: black;
-      }*/
-    }
+ }
 
 
 .imgQ{
@@ -96,7 +89,7 @@
     }
 }
 .galeria img{
-  margin: 15px;
+  margin: 1rem;
 }
 
 /*Talleres*/
@@ -109,7 +102,7 @@
 
 .flexG img{
   width: 800px;
-  margin-bottom: 35px;
+  margin-bottom: 2rem;
 }
 
 
@@ -131,7 +124,7 @@
 
 .element {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 4rem;
 }  
 
 .contacto{

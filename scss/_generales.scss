@@ -3,23 +3,6 @@
     padding: 0;
 }
 
-
-
-$margin: 5px;
-@for $i from 1 to 5 {
-    .mtop-#{$i}{
-        margin-top: $margin * $i;
-    }
-}
-
-$margin: 5px;
-@for $i from 1 to 5 {
-    .mbottom-#{$i}{
-        margin-bottom: $margin * $i;
-    }
-}
-
-
 body{
   font-family:'KoHo', sans-serif;
 	background: #fff1e6;
@@ -52,35 +35,16 @@ p {
    background-color: #fff1e6;
 }
 
-/* {outline: none !important;
-}
-
-textarea:focus, input:focus {outline: none !important;
-}
-
-
-
-a {color: transparent; text-decoration: none;
-}
-
-a:hover {color: #f1faee; text-decoration: none;
-}
-
-a:visited {color: transparent; text-decoration: none;
-}*/
-
-
-
 img{
-  border-radius: 8px;
+  border-radius: $border-radius;
   width: 300px;
 } 
 
 
 .separadorDeSeccion{
-  border-top: 5px solid #cdb4db;
-  margin-bottom: 25px;
-  margin-top: 25px;
+  border-top: .3rem solid #cdb4db;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 
